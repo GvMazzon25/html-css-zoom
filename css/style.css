@@ -79,4 +79,11 @@ main ul li{
 footer{
     background-color:rgba(34, 35, 37, 1);
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer section{
+    margin: 5px 10px;
 }
